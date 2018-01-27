@@ -28,7 +28,7 @@ class Landing extends Component {
 
   render() {
     return (
-      <Visibility>
+      <Visibility style={{ height: '100%' }}>
         <Video />
         <Divider horizontal inverted />
 				<About />

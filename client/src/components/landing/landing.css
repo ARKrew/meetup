@@ -1,3 +1,7 @@
+html, body {
+	height: 100%;
+}
+
 .list-item {
   overflow: hidden;
   max-width: 100%;
@@ -64,8 +68,10 @@
 }
 
 .sectionHead {
-  font-size: 3em;
-  line-height: 75%;
+	font-size: 100px;
+	letter-spacing: -5px;
+	line-height: 95px;
+	color: #2f2f2f;
 }
 
 .sectionHeadContainer {
@@ -84,3 +90,21 @@
 	background-color: #fafafa;
 	border-bottom:	1px solid rgba(0,0,0,.12);
 }
+
+.about-text {
+	opacity: 1;
+	height: 100%;
+}
+
+/* p {
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(120, end);  
+}
+
+@keyframes type {
+	from { width: 0;}
+} */

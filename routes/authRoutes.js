@@ -15,6 +15,9 @@ router.get('/current_user', (req, res) => {
   res.send(req.user);
 });
 
+// ********* totp authRoutes *********
+router.get('/totp', )
+
 // ********* logout *********
 router.get('/logout', (req, res) => {
   req.logout();
