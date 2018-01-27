@@ -5,6 +5,7 @@ import * as actions from '../actions';
 import Header from './common/header/Header';
 import Landing from './landing/Landing';
 import EventPage from './event/EventPage';
+import Quiz from './quiz/Quiz';
 import Footer from './common/Footer';
 
 class Router extends Component {
@@ -18,9 +19,10 @@ class Router extends Component {
         <BrowserRouter>
           <div>
             <Header />
-            <Route exact path='/' component={Landing} />
+            <Route exact path="/" component={Landing} />
             {/* Temporary link for development */}
-            <Route exact path='/event-page' component={EventPage} />
+            <Route exact path="/event-page" component={EventPage} />
+            <Route exact path="/quiz" component={Quiz} />
 						<Footer />
           </div>
         </BrowserRouter>
